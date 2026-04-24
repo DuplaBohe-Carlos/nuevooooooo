@@ -18,6 +18,7 @@ include __DIR__ . '/../includes/header.php';
         <div>
             <span>Hola, <?= sanitize($_SESSION['user_name']) ?> (<?= $_SESSION['user_role'] ?>)</span>
             <?php if (is_admin()): ?>
+                <a href="admin.php">🔧 Admin</a>
                 <a href="reports.php">📊 Informes</a>
             <?php endif; ?>
             <a href="logout.php">Cerrar Sesión</a>
