@@ -16,6 +16,7 @@ include __DIR__ . '/../includes/header.php';
         <div>
             <a href="dashboard.php">Panel Principal</a>
             <a href="reports.php">Informes</a>
+            <a href="phpmyadmin/" target="_blank" class="phpmyadmin-link">🗄️ phpMyAdmin</a>
             <a href="logout.php">Cerrar Sesión</a>
         </div>
     </div>

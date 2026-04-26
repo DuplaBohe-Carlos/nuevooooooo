@@ -132,6 +132,13 @@
             text-decoration: none;
             margin-left: 20px;
         }
+        
+        .navbar a.phpmyadmin-link {
+            background: #e14d2e;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-size: 14px;
+        }
 
         @media (max-width: 768px) {
             .card {
